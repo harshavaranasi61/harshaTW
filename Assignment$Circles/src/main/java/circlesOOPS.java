@@ -27,6 +27,7 @@ public class circlesOOPS extends PApplet {
 
         void drawCircle() {
             ellipse(this.xPosition, this.yPosition, C, D);
+            this.increaseSpeed();
         }
 
         void increaseSpeed() {
@@ -60,9 +61,5 @@ public class circlesOOPS extends PApplet {
         circle1.drawCircle();
         circle2.drawCircle();
         circle3.drawCircle();
-        circle0.increaseSpeed();
-        circle1.increaseSpeed();
-        circle2.increaseSpeed();
-        circle3.increaseSpeed();
     }
 }
